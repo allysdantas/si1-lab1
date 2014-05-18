@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+#centro {
+	text-align: center;
+}
+
+body {
+	background-image: url("bob-esponja.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left bottom;
+}
