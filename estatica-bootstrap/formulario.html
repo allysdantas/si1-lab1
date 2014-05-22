@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SI 1 - UFCG</title>
+<link rel="stylesheet" type="text/css" href="style/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="style/css/style.css" />
+</head>
+<body>
+	<!-- Barra de Navegação -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-target=".navbar-collapse"
+					data-toggle="collapse" type="button"></button>
+
+				<a class="navbar-brand" href="index.html"> Sistemas da
+					Informação I </a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html"> Pagina Inicial </a></li>
+					<li><a href="formulario.html"> Matricular-se </a></li>
+					<li><a href="sobre.html"> Sobre o Curso </a></li>
+					<li><a href="contato.html"> Contato </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Formulário</h1>
+		</div>
+	</div>
+	<!-- Formulario -->
+	<div class="container">
+		<fieldset>
+			<label> Nome: </label> <input class="form-control" type="text"
+				required="required" value=""
+				placeholder="Ex: Silvio Severino Silveira Santos" /> <label>
+				Email: </label><input class="form-control" type="email" required="required"
+				value="" placeholder="exemplo@exemplo.com" /> <label>
+				Matricula: </label><input class="form-control" type="number"
+				required="required" value="" placeholder="114100000" /> <label>Telefone</label><input
+				class="form-control" type="tel" required="required" value=""
+				placeholder="(XX) XXXX-XXXX" />
+				<br>
+			<form id="centro" method="post" action="obrigado.html">
+				<button class="btn btn-success" type="submit">Cadastre-se</button>
+			</form>
+
+		</fieldset>
+	</div>
+	<br /><br /><br />
+</body>
+</html>

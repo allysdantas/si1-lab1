@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+#centro {
+	text-align: center;
+}
+
+p {
+	text-indent: 30px;
+	text-align: justify;
+}
+
+h3 {
+	text-decoration: underline;
+}
