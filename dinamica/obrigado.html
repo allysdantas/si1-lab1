@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SI 1 - UFCG</title>
+<link rel="stylesheet" type="text/css" href="style/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="style/css/style.css" />
+
+<script src="javascript/jquery-2.1.1.js"></script>
+<script src="javascript/meu.js"></script>
+
+
+
+</head>
+<body>
+	<!-- Barra de navegação -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-target=".navbar-collapse"
+					data-toggle="collapse" type="button"></button>
+
+				<a class="navbar-brand" href="index.html"> Sistemas da
+					Informação I </a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html"> Pagina Inicial </a></li>
+					<li><a href="formulario.html"> Matricular-se </a></li>
+					<li><a href="sobre.html"> Sobre o Curso </a></li>
+					<li><a href="contato.html"> Contato </a></li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div id="centro">
+			<br /> <br /> <br />
+			<h1>Obrigado!</h1>
+		</div>
+		<br />
+
+		<!-- Digita assuntos -->
+		<fieldset>
+			<legend>Digite aqui qual assunto você deseja ver na
+				disciplina</legend>
+
+			<form>
+				<input id="assunto" class="form-control" type="text"
+					required="required"
+					placeholder="Ex: Padrões de Projeto" />
+
+			</form>
+			<br /> <br />
+		</fieldset>
+
+		<!-- Tabelas -->
+		<div class="row">
+			<div class="col-md-6">
+
+				<!-- Tabela de assuntos que deseja aprender -->
+				<fieldset>
+					<legend>Assuntos que gostaria de aprender</legend>
+
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th width="250">Assunto</th>
+								<th width="20">Ações</th>
+							</tr>
+						</thead>
+						<tbody id="desejaveis">
+
+						</tbody>
+					</table>
+				</fieldset>
+
+			</div>
+
+			<div class="col-md-6">
+
+				<!-- Tabela de assuntos aprendidos -->
+				<fieldset>
+					<legend>Assuntos aprendidos</legend>
+
+					<table class="table table-hover">
+						<thead>
+							<tr>
+								<th width="250">Assunto</th>
+								<th width="20">Ações</th>
+							</tr>
+						</thead>
+						<tbody id="aprendidos">
+
+						</tbody>
+					</table>
+
+				</fieldset>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
